@@ -1,0 +1,47 @@
+:root {
+    --color-primary: #fff;
+    --color-header-bg: #ccc;
+    --color-main-text: #222;
+    --color-secondary-text: #444;
+    --color-red: red;
+    --color-white: white;
+    --color-black: black;
+    --color-grey1: #aaa;
+    --color-grey2: #f0f0f0;
+    --font-h1: 2em;
+    --font-h2: 1em;
+    --font-h3: .5em;
+    --font-h5: .9em;
+    --font-title: .5em;
+    --font-subtitle: .5em;
+    --font-small: .5em;
+    --font-price: 1.3em;
+    --gridlei-column-gap:10px;
+}
+
+
+
+
+header {
+    /*grid-area: header;*/
+    background-color: var(--color-header-bg);
+    min-height: 120px;
+}
+
+footer {
+  /*  grid-area: footer;*/
+    background-color: var(--color-header-bg);
+    min-height: 120px;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+.self-center-align {
+    margin-left: auto;
+    margin-right: auto;
+}
+
