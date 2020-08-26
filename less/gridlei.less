@@ -1,93 +1,93 @@
-﻿.body-container {
+﻿.gl-body-container {
     display: grid;
     grid-template-columns: repeat(12, [col-start] 1fr);
     column-gap: var(--gridlei-column-gap);
 }
 
-.use-grid {
+.gl-use-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     column-gap: var(--gridlei-column-gap);
 }
 
-.container {
+.gl-container {
     grid-column: span 12;
     place-self: center;
     width: 1170px;
 }
 
-.fluid-container {
+.gl-fluid-container {
     grid-column: span 12;
 }
 
-.col-xs {
+.gl-col-xs {
     grid-column: span 2;
 }
 
-.col-s {
+.gl-col-s {
     grid-column: span 3;
 }
 
-.col-m {
+.gl-col-m {
     grid-column: span 4;
 }
 
-.col-l {
+.gl-col-l {
     grid-column: span 6;
 }
 
-.col-full {
+.gl-col-full {
     grid-column: span 12;
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .gl-container {
         width: 100%;
     }
 
-    .col-xs{
+    .gl-col-xs{
         grid-column: span 4;
     }
 
-    .col-s {
+    .gl-col-s {
         grid-column: span 6;
     }
 
-    .col {
+    .gl-col {
         &-m, &-l {
             grid-column: span 12;
         }
     }
 
-    .small-view .col-s {
+    .gl-small-view .col-s {
         grid-column: span 3;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width:980px) {
-    .container {
+    .gl-container {
         width: 738px;
     }
 
-    .col-s {
+    .gl-col-s {
         grid-column: span 4;
     }
 
-    .col-m {
+    .gl-col-m {
         grid-column: span 6;
     }
 }
 
 @media screen and (min-width: 980px) and (max-width:1200px) {
-    .container {
+    .gl-container {
         width: 950px;
     }
 
-    .col-s {
+    .gl-col-s {
         grid-column: span 3;
     }
 
-    .col-m {
+    .gl-col-m {
         grid-column: span 4;
     }
 }
