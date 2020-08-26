@@ -6,9 +6,15 @@ You can apply Gridlei in any existing div or use it to define your page layout.
 
 Add this variable, adjust it to your liking.
 
-:root {
-    --gridlei-column-gap: 10px;
-}
+
+```html
+<style>
+    :root {
+        --gridlei-column-gap: 10px;
+    }
+
+</style>
+```
 
 ## Classes
 
