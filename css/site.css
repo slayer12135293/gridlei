@@ -16,11 +16,56 @@
     --font-subtitle: .5em;
     --font-small: .5em;
     --font-price: 1.3em;
-    --gridlei-column-gap:10px;
+    --gridlei-column-gap: 10px;
 }
 
 
+/* Box sizing rules */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    background: 0 0
+}
 
 header {
     /*grid-area: header;*/
@@ -29,19 +74,16 @@ header {
 }
 
 footer {
-  /*  grid-area: footer;*/
+    /*  grid-area: footer;*/
     background-color: var(--color-header-bg);
     min-height: 120px;
 }
 
-img{
+img {
     width: 100%;
 }
-
-
 
 .self-center-align {
     margin-left: auto;
     margin-right: auto;
 }
-
