@@ -4,6 +4,12 @@ Gridlei is a super light weight responsive grid system based on CSS-Grid. Since 
 
 You can apply Gridlei in any existing div or use it to define your page layout.
 
+Add this variable, adjust it to your liking.
+
+:root {
+    --gridlei-column-gap: 10px;
+}
+
 ## Classes
 
 | Class Name | Use case |
