@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/gridlei.min.css">
+</head>
+
+<body>
+    <div class="body-container">
+        <header class="header fluid-container">
+            header
+        </header>
+
+
+        <style>
+            .container-menu {
+                height: 600px;
+                border: 1px solid black;
+                grid-column: span 2;
+            }
+            
+            .container-body {
+                grid-column: span 10;
+                height: 600px;
+                border: 1px solid red;
+            }
+            
+            .demo-block {
+                height: 60px;
+                background-color: yellow;
+                border: 1px solid black;
+                margin-bottom: 2px;
+            }
+        </style>
+
+        <div class="container use-grid">
+            <div class="container-menu">
+                menu
+            </div>
+            <div class="container-body">
+
+                <div class="fuild-container use-grid">
+                    <div class="demo-block col-m">medium block 0</div>
+                    <div class="demo-block col-m">medium block 1</div>
+                    <div class="demo-block col-m">medium block 2</div>
+                    <div class="demo-block col-m">medium block 3</div>
+                    <div class="demo-block col-m">medium block 4</div>
+                    <div class="demo-block col-m">medium block 5</div>
+                </div>
+
+                <div class="fuild-container use-grid">
+                    <div class="demo-block col-l">medium block 0</div>
+                    <div class="demo-block col-l">medium block 1</div>
+                    <div class="demo-block col-l">medium block 2</div>
+                    <div class="demo-block col-l">medium block 3</div>
+                    <div class="demo-block col-l">medium block 4</div>
+                    <div class="demo-block col-l">medium block 5</div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <footer class="footer fluid-container">
+            footer
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
